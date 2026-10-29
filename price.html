@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="https://putevyelisty.veridok.ru/price.html">
+<title>Цена — путевые листы и учёт ГСМ</title>
+<meta name="description" content="Цена выписки путевых листов и учёта ГСМ для фирм со своим автопарком: за машину в месяц.">
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+<script src="smoke.js" defer></script>
+<script>
+  /* Открыт экран цен — price_view через smoke.js (window.smokeTrack). */
+  document.addEventListener("DOMContentLoaded", function () { if (window.smokeTrack) window.smokeTrack("price_view"); });
+</script>
+</head>
+<body data-page="price">
+
+<header><div class="wrap">
+  <div class="logo"><a href="index.html" data-ev="click_logo_home">Путевой лист и ГСМ</a></div>
+  <nav class="top"><a href="index.html#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="index.html#primer" data-ev="click_nav_primer">Пример</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="hero">
+    <h1>Тариф и цена</h1>
+    <p class="sub">Путевые листы, расход по нормам, сверка с топливными картами и остатки в баке.</p>
+  </div>
+
+  <section id="cena">
+    <div class="grid">
+      <div class="card"><b>Путевые листы и расход</b><span>90 ₽ за машину в месяц.</span><br><a class="btn" href="pay.html?plan=listy" data-ev="payment_click click_pay_listy">Оплатить — 90 ₽ за машину</a></div>
+      <div class="card"><b>Со сверкой топливных карт</b><span>140 ₽ за машину в месяц.</span><br><a class="btn" href="pay.html?plan=s_kartami" data-ev="payment_click click_pay_s_kartami">Оплатить — 140 ₽ за машину</a></div>
+    </div>
+    <p class="note nalog">Цены указаны без НДС.</p>
+    <p class="cta-note">Ранний доступ · Оплата на этой странице пока не принимается</p>
+    <div class="actions"><a class="btn" href="index.html" data-ev="click_back">Вернуться к описанию</a></div>
+  </section>
+</div>
+
+<footer><div class="wrap">
+  <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
+  <p class="muted">Путевые листы и расчёт ГСМ по вашим данным. Правильность сведений и списание ГСМ остаются за фирмой.</p>
+</div></footer>
+
+</body>
+</html>
